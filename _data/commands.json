@@ -1,0 +1,34 @@
+[
+    {
+        "device_name":"gb-weir-001",
+        "remote_command": "b",
+        "timestamp":1637267981,
+        "user":"marcbeltman@hotmail.com",
+        "prev_device_status": "b",
+        "clock_program": false
+    },
+    {
+        "device_name":"gb-weir-001",
+        "remote_command": "b",
+        "timestamp":1637267982,
+        "user":"marcbeltman@hotmail.com",
+        "prev_device_status": "c",
+        "clock_program": true
+    },
+    {
+        "device_name":"gb-weir-001",
+        "remote_command": "c",
+        "timestamp":1637267983,
+        "user":"marcbeltman@hotmail.com",
+        "prev_device_status": "b",
+        "clock_program": false
+    },
+    {
+        "device_name":"gb-weir-001",
+        "remote_command": "d",
+        "timestamp":1637267984,
+        "user":"marcbeltman@hotmail.com",
+        "prev_device_status": "b",
+        "clock_program": true
+    }
+]

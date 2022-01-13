@@ -1,0 +1,62 @@
+[
+{
+    "device_name": "gb-weir-001",
+    "location": "warmbeek",
+    "weir_timestamp": 1641821721,
+    "curr_weir_status":  "b",
+    "clock_program" : false,
+    "command": "b",
+    "command_timestamp":1637267981,
+    "prev_weir_status": "b",
+    "distance": 750,
+    "weir_battery":54,
+    "sunbun_battery":67,
+    "up_voltage": 12,
+    "down_voltage":9
+},
+{
+    "device_name": "gb-weir-001",
+    "location": "warmbeek",
+    "weir_timestamp": 1641821722,
+    "curr_weir_status":  "a",
+    "clock_program" : false,
+    "command": "c",
+    "command_timestamp":1637267982,
+    "prev_weir_status": "close",
+    "distance": 750,
+    "weir_battery":54,
+    "sunbun_battery":67,
+    "up_voltage": 12,
+    "down_voltage":9
+},
+{
+    "device_name": "gb-weir-001",
+    "location": "warmbeek",
+    "weir_timestamp": 1641821723,
+    "curr_weir_status":  "a",
+    "clock_program" : true,
+    "command": "b",
+    "command_timestamp":1637267983,
+    "prev_weir_status": "close",
+    "distance": 750,
+    "weir_battery":54,
+    "sunbun_battery":67,
+    "up_voltage": 12,
+    "down_voltage":9
+},
+{
+    "device_name": "gb-weir-001",
+    "location": "warmbeek",
+    "weir_timestamp": 1641821724,
+    "curr_weir_status":  "a",
+    "clock_program" : true,
+    "command": "b",
+    "command_timestamp":1637267984,
+    "prev_weir_status": "b",
+    "distance": 750,
+    "weir_battery":54,
+    "sunbun_battery":67,
+    "up_voltage": 12,
+    "down_voltage":9
+}
+]
