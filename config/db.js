@@ -8,4 +8,22 @@ const connectDB = async () => {
     console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline.bold);
 }
 
+// REALTIME LISTNER NAAR DE MONGO-DB DATABASE naar collection 'weirlogs'
+const connection = mongoose.connection
+
+connection.once("open", () => {
+    console.log("MongoDB database connected")
+
+    console.log("Setting change streams")
+    const changeStream = connection.collection("weirlogs").watch()
+
+    changeStream.on("change", (change) => {
+        console.log(change)
+    })
+})
+
+
+
+
+
 module.exports = connectDB;

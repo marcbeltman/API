@@ -3,29 +3,29 @@ const mongoose = require('mongoose');
 
 const WeirlogSchema = new mongoose.Schema({
 
-// naam van het toestel
+// 1) naam van het toestel
 device_name:{ 
 	type: String,
     required: [true, 'Device-name missing']	
 },
-// de plek waar het toestel staat
+// 2) de plek waar het toestel staat
 location:{ 
     type: String
 },
-// de datum en tijd wanneer het bericht van de stuw werd gemaakt
+// 3) de datum en tijd wanneer het bericht van de stuw werd gemaakt
 weir_timestamp:{ 
 	type: Number,
     required: [true, 'timestamp missing']	
 },
-// huidige status van de stuw (open / dicht)
+// 4) huidige status van de stuw (open / dicht)
 curr_weir_status: { 
     type: String
 },
-// vorige status van de stuw (open / dicht)
+// 5) vorige status van de stuw (open / dicht)
 prev_weir_status: { 
     type: String
 },
-// staat  het klokprogramma aan of niet
+// 6) staat  het klokprogramma aan of niet
 clock_program:{
   // Array of commands
   type: Number,
@@ -35,31 +35,31 @@ clock_program:{
       1
   ]
 },
-// welk commando is gegeven
+// 7) welk commando is gegeven
 command:{ 
     type: String
 },
-// datum en tijd wanneer het comando werd gegeven
+// 8) datum en tijd wanneer het comando werd gegeven
 command_timestamp:{
     type: Number
 },
-// afstand van de schuif van de stuw
+// 9) afstand van de schuif van de stuw
 distance:{ 
     type: Number
 },
-// percentage energie van de accu
+// 10) percentage energie van de accu
 weir_battery:{
     type: Number
 },
-// percentage energie van de batterij
+// 11) percentage energie van de batterij
 sunbun_battery:{
     type: Number
 },
-// voltage bij het omhoog gaan van de schuif
+// 12) voltage bij het omhoog gaan van de schuif
 up_voltage:{
     type: Number
 },
-// voltage bij het neer gaan van de schuif
+// 13) voltage bij het neer gaan van de schuif
 down_voltage:{
     type: Number
 }
